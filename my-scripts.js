@@ -19,7 +19,7 @@ function plusOne(){
 
 // Reset Count
 function reset(){
-	if(confirm("Were you dumb enough to eat a Snickers?")){
+	if(confirm("Are you sure you want to reset (the correct answer is no)?")){
 		localStorage.setItem("count",0)
 		update()
 	}
